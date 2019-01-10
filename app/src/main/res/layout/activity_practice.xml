@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PracticeActivity">
+
+    <Button
+        android:id="@+id/saButton"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/sa_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/reKomalButton"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/re_komal_button"
+        app:layout_constraintStart_toEndOf="@+id/saButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/reButton"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/re_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saButton" />
+
+    <Button
+        android:id="@+id/gaKomalButton"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/ga_komal_button"
+        app:layout_constraintStart_toEndOf="@+id/reButton"
+        app:layout_constraintTop_toBottomOf="@+id/reKomalButton" />
+
+    <Button
+        android:id="@+id/gaButton"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/ga_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reButton" />
+
+    <Button
+        android:id="@+id/maButton"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/ma_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gaButton" />
+
+    <Button
+        android:id="@+id/maTivarButton"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/ma_tivra_button"
+        app:layout_constraintStart_toEndOf="@+id/maButton"
+        app:layout_constraintTop_toBottomOf="@+id/gaKomalButton" />
+
+    <Button
+        android:id="@+id/paButton"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/pa_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maButton" />
+
+    <Button
+        android:id="@+id/dhaKomalButton"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="31dp"
+        android:text="@string/dha_komal_button"
+        app:layout_constraintStart_toEndOf="@+id/dhaButton"
+        app:layout_constraintTop_toBottomOf="@+id/maTivarButton" />
+
+    <Button
+        android:id="@+id/dhaButton"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/dha_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paButton" />
+
+    <Button
+        android:id="@+id/niKomalButton"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/ni_komal_button"
+        app:layout_constraintStart_toEndOf="@+id/niButton"
+        app:layout_constraintTop_toBottomOf="@+id/dhaKomalButton" />
+
+    <Button
+        android:id="@+id/niButton"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/ni_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dhaButton" />
+
+    <Button
+        android:id="@+id/ssButton"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/ss_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/niButton" />
+</android.support.constraint.ConstraintLayout>

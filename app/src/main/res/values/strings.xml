@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ear Training</string>
+    <string name="practice">Practice</string>
+    <string name="Quiz">Quiz</string>
+    <string name="sa_button">Sa (C)</string>
+    <string name="re_komal_button">Re(k) (C#)</string>
+    <string name="re_button">Re (D)</string>
+    <string name="ga_komal_button">Ga(k) (D#)</string>
+    <string name="ga_button">Ga (E)</string>
+    <string name="ma_button">Ma (F)</string>
+    <string name="ma_tivra_button">Ma(t) (F#)</string>
+    <string name="pa_button">Pa (G)</string>
+    <string name="dha_komal_button">Dha(k) (G#)</string>
+    <string name="dha_button">Dha (A)</string>
+    <string name="ni_komal_button">Ni(k) (A#)</string>
+    <string name="ni_button">Ni (B)</string>
+    <string name="ss_button">S\' (C\')</string>
+    <string name="edit_message">Enter Message</string>
+    <string name="quiz_text">Identify the note. Press the button to hear the note.</string>
+    <string name="question_note">Question Note</string>
+    <string name="next_question">Next Question</string>
+</resources>
